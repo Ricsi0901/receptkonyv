@@ -1,0 +1,23 @@
+@charset "utf-8";
+main{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+main,footer,header,article,section,div{
+    border: 1px solid gray;
+}
+table, td,th{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+section{
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+}
+img{
+    width: 100%;
+}
+.hattere{
+background-color: green;
+}
